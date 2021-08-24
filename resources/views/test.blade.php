@@ -15,3 +15,4 @@
 </html>
 
 <script src="/js/app.js"></script>
+<script src="https://kit.fontawesome.com/4aaff6c51d.js" crossorigin="anonymous"></script>
