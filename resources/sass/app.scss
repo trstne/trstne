@@ -8,14 +8,14 @@
 // Import fonts and remove margin for HTML
 html,
 body {
-    background-color: #34495E;
+    background-color: #222;
     margin: 0;
     font-size: 1em;
     font-family: -apple-system, BlinkMacSystemFont, 'proxima-nova', Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 html{
-    background-color: #136f16;
+    background-color: #222;
 }
 
 #app-container{
@@ -23,20 +23,48 @@ html{
     color: white;
     text-align: center;
     height: 100%;
-    font-size: 10em;
+    font-size: 1em;
     margin: auto;
+
+    border-radius: 20px;
+    
 
     min-height: 90vh;
     width: 100%;
     #app{
 
-        width: 80%;
-        height: 90vh;
+        width: 40%;
+        height: 70vh;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
         background: #333;
-        margin: auto;
+        margin: 0 20% 40%;
 
         #text{
-            vertical-align: middle;
+            font-family: 'Pragmatica-Medium';
+            padding: 2.5rem 5rem;
+            text-align: left;
+            #hi{
+                font-size: 8em;
+                font-weight: 800;
+            }
+
+            #name{
+                font-size: 4em;
+            }
+
+            #description{
+                position: relative;
+                margin-top: 2rem;
+                font-size: 2em;
+            }
+
+            a{
+                position: relative;
+                color: white;
+                text-decoration: none;
+                z-index: 5;
+            }
         }
 
     }
@@ -44,10 +72,38 @@ html{
 
 #header{
     min-height: 5vh;
-    background: #34495E;
+    background: #222;
+}
+
+#border-top{
+    width: 100%;
+    margin: auto;
+    min-height: 1rem;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 154, 0, 1) 10%,
+        rgba(208, 222, 33, 1) 20%,
+        rgba(79, 220, 74, 1) 30%,
+        rgba(63, 218, 216, 1) 40%,
+        rgba(47, 201, 226, 1) 50%,
+        rgba(28, 127, 238, 1) 60%,
+        rgba(95, 21, 242, 1) 70%,
+        rgba(186, 12, 248, 1) 80%,
+        rgba(251, 7, 217, 1) 90%,
+        rgba(255, 0, 0, 1) 100%
+    );
 }
 
 #footer{
-    min-height: 5vh;
-    background: #34495E;
+    //min-height: 5vh;
 }
+
+@font-face {
+    font-family: 'Pragmatica-Medium';
+    src: url('/fonts/PragmaticaMedium.otf');
+}
+
+@import 'link';
