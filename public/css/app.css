@@ -230,8 +230,8 @@ html {
   height: 5px;
   background: currentColor;
   top: 105%;
-  width: 100%;
-  left: 0;
+  width: 102%;
+  left: -1%;
   z-index: -1;
 }
 
@@ -263,8 +263,6 @@ html {
 }
 
 .style:hover::before {
-  width: 102%;
-  left: -1%;
   transform-origin: 0% 0%;
   transform: scale3d(1, -8, 1);
   transition: transform 0.15s;
