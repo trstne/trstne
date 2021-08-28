@@ -32,6 +32,11 @@ html{
     min-height: 90vh;
     width: 100%;
 
+    #content-container{
+        transition: .5s;
+        width: 100%;
+    }
+
     .green{
         transition: .5s;
         background-color: #1DB954;
@@ -93,8 +98,8 @@ html{
 #border-top{
     //width: 1000px;
     min-height: 1rem;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
     background: linear-gradient(
         90deg,
         rgba(255, 0, 0, 1) 0%,
@@ -120,11 +125,11 @@ html{
     src: url('/fonts/PragmaticaMedium.otf');
 }
 
-@media (orientation:landscape){
+@media (orientation: landscape) and (min-width: 1001px){
     #content-container{
         transition: .5s;
-        width: 1000px;
-        margin: 0 20% 40%;
+        max-width: 1000px;
+        margin-left: 20%;
         #border-top{
             border-top-left-radius: 7px;
             border-top-right-radius: 7px;
@@ -133,16 +138,15 @@ html{
 
 }
 
-@media (orientation:portrait){
+@media (max-width: 500px){
     #content-container{
-        transition: .5s;
-        width: 100%;
-        margin: 0;
-        #border-top{
-            border-top-left-radius: 0px;
-            border-top-right-radius: 0px;
-        }
+        font-size: .6em;
+    }
+}
 
+@media (max-width: 400px){
+    #content-container{
+        font-size: .5em;
     }
 }
 
