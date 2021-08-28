@@ -57,11 +57,12 @@ html{
             text-align: left;
             #hi{
                 font-size: 8em;
-                font-weight: 800;
+                font-weight: 700;
             }
 
             #name{
-                font-size: 4em;
+                font-weight: 500;
+                font-size: 3.5em;
             }
 
             #description{
@@ -217,7 +218,7 @@ html{
     }
     #content-container{
         border: transparent;
-        border-bottom: solid 5px white;
+        border-bottom: solid 10px white;
         border-radius:0;
     }
     #border-top{

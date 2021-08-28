@@ -24,7 +24,7 @@ export const Home = () => {
                 <div id="name">My name is Tristen Lawrence.</div>
                 
                 <div id="description">I am a senior in Computer Science &amp; Engineering 
-                at the <a href="https://uconn.edu" class="link style">University of Connecticut</a>.</div>
+                at the <a href="https://uconn.edu" class="link style">University of Connecticut.</a></div>
 
                 <div id="description">I currently work as a <a href="https://webdev.uconn.edu" class="link style">Web Developer</a> for UConn Information Technology Services.</div>
                 

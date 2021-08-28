@@ -1942,8 +1942,8 @@ var Home = function Home() {
             children: ["I am a senior in Computer Science & Engineering at the ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
               href: "https://uconn.edu",
               "class": "link style",
-              children: "University of Connecticut"
-            }), "."]
+              children: "University of Connecticut."
+            })]
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
             id: "description",
             children: ["I currently work as a ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {

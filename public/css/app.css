@@ -45,10 +45,11 @@ html {
 }
 #app-container .app #text #hi {
   font-size: 8em;
-  font-weight: 800;
+  font-weight: 700;
 }
 #app-container .app #text #name {
-  font-size: 4em;
+  font-weight: 500;
+  font-size: 3.5em;
 }
 #app-container .app #text #description {
   position: relative;
@@ -167,7 +168,7 @@ html {
 
   #content-container {
     border: transparent;
-    border-bottom: solid 5px white;
+    border-bottom: solid 10px white;
     border-radius: 0;
   }
 
