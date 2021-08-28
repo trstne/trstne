@@ -40,7 +40,7 @@ html {
   background-color: #333;
 }
 #app-container .app #text {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Pragmatica-Medium", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   text-align: left;
 }
 #app-container .app #text #hi {
@@ -97,6 +97,7 @@ html {
   .app #text {
     padding-top: 1rem;
     padding-left: 5rem;
+    padding-right: 1rem;
     padding-bottom: 2rem;
   }
 
