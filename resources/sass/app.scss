@@ -53,13 +53,6 @@ html{
     }
 
     .app{
-
-        border-left: solid #888 10px;
-        border-bottom: solid #888 10px;
-        border-right: solid #888 10px;
-
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
         
 
         #text{
@@ -96,12 +89,6 @@ html{
         }
 
     }
-}
-
-#border-header{
-    width: 100%;
-    height: 10px;
-    background: #444;
 }
 
 #border-top{
@@ -145,7 +132,12 @@ html{
     src: url('/fonts/PragmaticaMedium.otf');
 }
 
-@media (orientation: landscape) and (min-width: 1001px){
+@media (orientation: landscape and (min-width: 800)){
+    #border-header{
+        width: 100%;
+        height: 10px;
+        background: #444;
+    }
     #header{
         min-height: 5vh;
         background: #333;
@@ -157,6 +149,12 @@ html{
     }
     
     .app{
+        border-left: solid #888 10px;
+        border-bottom: solid #888 10px;
+        border-right: solid #888 10px;
+
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
         #text{
             padding-top: 1rem;
             padding-left: 5rem;
@@ -198,39 +196,8 @@ html{
         min-height: 3rem;
     }
 }
-@media (orientation: landscape) and (max-width: 999px){
-    #header{
-        min-height: 5vh;
-        background: #444;
-    }
-    
-    #footer{
-        background: #444;
-        min-height: 5vh;
-    }
-    
-    .app{
-        #text{
-            padding-top: 1rem;
-            padding-left: 5rem;
-            padding-bottom: 2rem;
-        }
-    }
-    #content-container{
-        border: 10px solid white;
-        transition: .5s;
-        max-width: 1000px;
-        margin-left: 20%;
-        border-radius: 10px;
-        #border-top{
-            // border-top-left-radius: 7px;
-            // border-top-right-radius: 7px;
-        }
-    }
 
-}
-
-@media (orientation: portrait){
+@media (max-width: 800px){
     .app{
         #text{
             padding: 30px;

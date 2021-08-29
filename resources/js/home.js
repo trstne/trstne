@@ -15,7 +15,7 @@ export const Home = () => {
         <div id="app-container">
             <div id="content-container">
             <div id="border-top"></div>
-            
+        
             <div class={state}>
             {state == 'app default' ?
             
