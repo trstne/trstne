@@ -15,8 +15,10 @@ export const Home = () => {
         <div id="app-container">
             <div id="content-container">
             <div id="border-top"></div>
+            
             <div class={state}>
             {state == 'app default' ?
+            
             <div id="text">
                 
                 <div id="hi">Hello.</div>
@@ -28,6 +30,7 @@ export const Home = () => {
 
                 <div id="description">I currently work as a <a href="https://webdev.uconn.edu" class="link style">Web Developer</a> for UConn Information Technology Services.</div>
                 
+                {/* <div id="description"><a href="https://webdev.uconn.edu" class="link style">Resume</a></div> */}
                 {/* <div id="spotify"><a class="link spotify" onClick={event => setState("app green")}><i class="fab fa-spotify"></i></a></div> */}
             </div>
             : 

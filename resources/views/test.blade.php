@@ -9,7 +9,9 @@
     </head>
     <body>
         <div id="header"></div>
+        <div id="border-header"></div>
         <div id="home"></div>
+        <div id="border-header"></div>
         <div id="footer"></div>
     </body>
 </html>
