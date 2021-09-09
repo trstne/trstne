@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/welcome', function () {
     return view('welcome');
 });
+
+Route::get('/uconn', function () {
+    return view('university');
+});
+
+Route::get('/discord', 'DiscordController@startBot');
+
+
