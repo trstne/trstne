@@ -158,7 +158,6 @@ html{
         #text{
             padding-top: 1rem;
             padding-left: 5rem;
-            padding-right: 5rem;
             padding-bottom: 2rem;
         }
     }
@@ -174,6 +173,27 @@ html{
         }
     }
 
+}
+
+@media (max-width: 500px){
+    .app{
+        #text{
+            padding: 30px;
+        }
+    }
+    #app-container{
+        padding: 0;
+        border: transparent;
+    }
+    #content-container{
+        border: transparent;
+        font-size: .6em;
+        border-bottom: solid 5px white;
+        border-radius:0;
+    }
+    #border-top{
+        min-height: 3rem;
+    }
 }
 
 @media (max-width: 800px){
@@ -198,7 +218,15 @@ html{
 }
 
 @media (max-width: 500px){
-
+    .app{
+        #text{
+            padding: 30px;
+        }
+    }
+    #app-container{
+        padding: 0;
+        border: transparent;
+    }
     #content-container{
         border: transparent;
         font-size: .6em;
@@ -210,5 +238,25 @@ html{
     }
 }
 
+@media (max-width: 400px){
+    .app{
+        #text{
+            padding: 30px;
+        }
+    }
+    #app-container{
+        padding: 0;
+        border: transparent;
+    }
+    #content-container{
+        border: transparent;
+        font-size: .6em;
+        border-bottom: solid 5px white;
+        border-radius:0;
+    }
+    #border-top{
+        min-height: 3rem;
+    }
+}
 
 @import 'link';

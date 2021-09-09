@@ -135,7 +135,6 @@ html {
   .app #text {
     padding-top: 1rem;
     padding-left: 5rem;
-    padding-right: 5rem;
     padding-bottom: 2rem;
   }
 
@@ -149,7 +148,28 @@ html {
     border-top-right-radius: 10px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
+  .app #text {
+    padding: 30px;
+  }
+
+  #app-container {
+    padding: 0;
+    border: transparent;
+  }
+
+  #content-container {
+    border: transparent;
+    font-size: 0.6em;
+    border-bottom: solid 5px white;
+    border-radius: 0;
+  }
+
+  #border-top {
+    min-height: 3rem;
+  }
+}
+@media (orientation: portrait) {
   .app #text {
     padding: 30px;
   }

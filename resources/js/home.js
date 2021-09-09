@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-//import Draggable from 'react-draggable';
+import Draggable from 'react-draggable';
 
 
 export const Home = () => {
